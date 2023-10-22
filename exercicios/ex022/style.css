@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+body {
+    margin: auto;
+    color: white;
+}
+
+aside {
+    color: black;
+}
+
 div.quadrado  {
     display: inline-block;
     margin: 5px;
@@ -8,16 +17,32 @@ div.quadrado  {
     background-color: lightgray;
     border: 2px solid black;
     border-radius: 20px;
+
+    text-align: center;
 }
 
 div#q1 {
-    background-color: lightblue;
+    background-color: rgb(5, 137, 181);
+    position: relative;
 }
 
 div#q2 {
     background-image: linear-gradient( to bottom, lightblue, darkblue);
+    position: relative;
 }
 
 div#q3 {
     background-image: url(imagens/pattern001.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain ;
+    background-attachment: fixed;
+    position: relative;
+}
+
+article {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
 }
