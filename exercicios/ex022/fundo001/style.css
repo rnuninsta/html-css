@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 body {
+    background-image: url(imagens/wallpaper004.jpg);
     margin: auto;
     color: white;
 }
@@ -32,7 +33,7 @@ div#q2 {
 }
 
 div#q3 {
-    background-image: url(imagens/pattern001.png);
+    background-image: url(imagens/pattern003.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain ;
