@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dispositívos</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="imod">Modelo do celular:</label>
+            <select name="modelo" id="imod">
+                <option value="Escolha..."></option>
+                <optgroup label="apple">
+                    <option value="AIP1132">iPhone 11 32GB</option>
+                    <option value="AIP11P64">iPhone 11 Pro 64GB</option>
+                    <option value="AIP11PM256">iPhone 11 Pro Max 256GB </option>
+                </optgroup>
+                <optgroup label="Samsung">
+                    <option value="SGXYS10">Galaxy S10 Lite</option>
+                    <option value="SGXYS20U128">Galaxy S20 Ultra 128GB</option>
+                    <option value="SGXYN10256">Galaxy Note10 256GB</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="idesc">Especificações técnicas:</label><br>
+            <textarea name="desc" id="idesc" cols="40" rows="10"></textarea>
+        </p>
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="Prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <optgroup label="Negócios">
+                    <option value="Administrador"></option>
+                    <option value="Contabilista"></option>
+                    <option value="Gestor de RH"></option>
+                </optgroup>
+                <optgroup label="Artes e Design">
+                    <option value="Animador"></option>
+                    <option value="Ator"></option>
+                    <option value="Fotógrafo"></option>
+                </optgroup>
+            </datalist>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>

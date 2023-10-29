@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="get" 
+    oninput="itot.value = Number(ipreco.value) * Number(iquant.value)"> 
+    <!-- oniput = valor de total (=) valor do preço em número (*) valor da quantidade em número. -->
+    </form>>
+        <p>
+            <label for="iprod">Produto:</label>
+            <input type="text" name="prod" id="iprod">
+        </p>
+        <p>
+            <label for="ipreco">Preço:</label>
+            <input type="number" name="preco" id="ipreco">
+        </p>
+        <p>
+            <label for="iquant">Quantidade:</label>
+            <input type="number" name="quant" id="iquant">
+        </p>
+        <p>
+            <label for="itot">Total: R$</label>
+            <output name="tot" id="itot">0</output>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
