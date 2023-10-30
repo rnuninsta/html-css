@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="../cad.php" method="get" autocomplete="">
+        <filedset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" minlength="5" max="20" required>
+            </p>
+            <p>
+                <label for="imail">E-mail:</label>
+                <input type="email" name="email" id="imail" placeholder="usaername@.gmail.com" autocomplete="email" required>
+            </p>
+            <p>
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="tel" id="itel" required
+                 autocomplete="tel-national" placeholder="(XX) XXXX-XXXX" pattern="^\(d{2}\)\[\s]\d{4,5}-[0-9]{4,5} $">
+            </p>
+        </filedset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+    
+</body>
+</html>
