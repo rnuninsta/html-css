@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cad.php" method="post" autocomplete="off">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" nome="nome" id="inome" required minlength="3" maxlength="15" size="15">
+        </p>
+        <p>
+            <label for="ipass">senha</label>
+            <input type="password" nome="senha" id="ipass" required minlength="6">
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Restaurar">
+    </form>
+</body>
+</html>
