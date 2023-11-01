@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 1200px) { /* telas grandes */
+    body {
+        background: black url(../image/back-tv.jpg) center no-repeat fixed;
+        background-size: cover;
+    }    
+
+    img#phone { display: none;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: block;}
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 651px) and (max-width: 992px) { /*tablet*/
+    body {
+        background: black url(../image/back-tablet.jpg) center center no-repeat fixed;
+        background-size: cover;
+    }
+    
+    
+    img#phone { display: none;}
+    img#tablet {display: block;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+}
+

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /*desktpo*/
+    body {
+        background: black url(../image/back-pc.jpg) center center no-repeat fixed;
+        background-size: cover;
+    }
+
+    img#phone { display: none;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#pc {display: block;}
+    img#tv {display: none;}
+}
