@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+* {
+    padding: 30px;
+    margin: 0px;
+}
+
+body{
+    width: 100%;
+
+}
+
+main.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border: 1px dashed black;
+}
+
+div.b1 {
+    background-image: linear-gradient(to bottom, violet, blue);
+    color: white;
+    border: 1px solid black;
+}
+
+div.b2 {
+    background-image: linear-gradient( to bottom, orange, red);
+    color: white;
+    border: 1px solid black;
+}
+
+div.b3 {
+    background-image: linear-gradient( to bottom, yellow, lightgreen);
+    border: 1px solid black;
+}
